@@ -12,7 +12,48 @@
     <body>
         
         <script>
-            
+            // Naming Convention in JS
+            // camelCase for Variables and Functions/Methods
+
+            var rishabhBairagi;
+            var kuldeepLohar;
+
+            const PI=3.14;
+
+            PI=4.5;
+
+            console.log(PI);
+
+            rishabhBairagi=10;
+            kuldeepLohar=20;
+
+            console.log(rishabhBairagi+kuldeepLohar)
+
+            var rohitMali;
+            rohitMali=40;
+            console.log(rohitMali);
+            // 1. Function Defination
+            function myFunctionA(name){ // Name is a formal argument/parameter
+                // Function Body
+                console.log("Hello "+name);
+                myFunctionB("Hello "+name);
+            }
+            // 2. Function Calling
+            myFunctionA("Rishabh");
+
+            function myFunctionB(msg){
+                // Function Body
+                console.log("Hello "+msg+" How are you ?");
+                myFunctionC(10,20);
+            }
+            myFunctionB("Nandan");
+            myFunctionA("Pankaj");
+
+            // 1. Function Defination
+            function myFunctionC(x,y){
+                // Function Body
+                console.log(x+y);
+            }
         </script>
     </body>
 </html>
