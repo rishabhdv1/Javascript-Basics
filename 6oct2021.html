@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style></style>
+        <script>
+            //1. Function Defination
+            function myfunction(x,y) {
+                // Function Body
+
+                // Function may return something
+                return x+y;
+            }
+
+            //2. Function Calling
+
+            var z = myfunction(10,20); // 10 and 20 are actual arguments/parameters
+            var a = myfunction(50,20);
+            console.log(z);
+            // alert(a); // Function Calling
+            
+            var b=myfunction(40,myfunction(50,20))
+            // alert(b)
+
+            // var student1="RSB"
+
+            var students=["Rishabh","Abhishek","Anchit","Anant","Shivam"];
+
+            // console.log("Hello "+students[1]+", how are you?");
+            // alert("Hello "+students[4]+" How are you?")
+
+            function greet(m){
+                console.log("Hello "+m+", how are you?");
+            }
+            /*
+                for(initialization,condition,increament/decreament){
+                }
+            */
+            for(var i=0;i<=4;i++){
+                greet(students[i]);
+            }
+
+            function greet2(s){
+                for(var i=0;i<=4;i++){
+                    console.log('11 Hello '+s[i]+', how are you?');
+                }
+            }
+            greet2(students);
+
+            var fruits=["Apple","Banana","Mango","Pineapple","Pomegranate"]
+
+            function name(n){
+                console.log("The Fruit is ",n)
+            }
+            for(var i=0;i<=4;i++){
+                name(fruits[i]);
+            }
+
+        </script>
+        <script>
+            var cars=["Audi","Mercedes","Tata","Maruti","Suzuki","Jaguar","Lambhorgini"]
+            /*
+                for(initialization,condition,increament/decreament){
+                }
+            */
+            function brands(b){
+                console.log(b+" is "+"a","car"+" brand");
+            }
+            for(var i=0;i<=6;i++){ 
+                brands(cars[i]);
+            };
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
