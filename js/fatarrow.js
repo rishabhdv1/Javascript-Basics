@@ -74,13 +74,12 @@ let b6=["claiming that","some people on social media"];
 let b7=["accused his company","of taking"];
 let b8=["a political","stance"];
 
-let b9=[...b1,...b2,...b3,...b4,...b5,...b6,...b7,...b8];
+let b9=[...b1,...b2,...b3,...b4,...b5,...b6,...b7,...b8]; // Spread Function
 
 console.log(b9);
 
 var p2=""
 for(var i=0;i<=14;i++){
-    // p2=p2+b9[i]+" ";
     p2+=b9[i]+" ";
-}
+};
 console.log(p2);
