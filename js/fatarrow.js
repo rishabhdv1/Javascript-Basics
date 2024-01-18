@@ -78,8 +78,9 @@ let b9=[...b1,...b2,...b3,...b4,...b5,...b6,...b7,...b8]; // Spread Function
 
 console.log(b9);
 
-var p2=""
+var p3=""
 for(var i=0;i<=14;i++){
-    p2+=b9[i]+" ";
-};
-console.log(p2);
+    console.log(b9[i]);
+    p3+=b9[i]+" "
+}
+console.log(p3);
