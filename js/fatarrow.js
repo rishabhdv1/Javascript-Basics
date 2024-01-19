@@ -84,3 +84,19 @@ for(var i=0;i<=14;i++){
     p3+=b9[i]+" "
 }
 console.log(p3);
+
+
+
+//1. Function Defination
+function myFunctionC(n){; // n is a formal argument
+    // Function Body
+    console.log("Hello"+n+"How are you");
+
+    // Function returning something
+    return n;
+}
+//2. Function Calling
+let x = myFunctionC(" Rishabh Bairagi ");
+    console.log();
+
+myFunctionC(" Abhishek Bairagi ");
